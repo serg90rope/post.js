@@ -3,12 +3,16 @@ Here you find the separated post.js functions and might to find their html-code/
 
 
 
-<h3>postDate(dateFormat, language, abbreviated);</h3>
+### postDate(dateFormat, language, abbreviated);
 
-<p>Приймає три аргументи:
-  <pre><code>
+Приймає три аргументи:
+  ``` javascript
       dateFormat (string), language (string), abbreviated (bool). 
       Default: 'dd.mm.yyyy', 'ru', false
-    </code></pre>
+  ```
 
-<code>Type:</code> Here is <code>Default:</code>
+Додаємо клас "date-N", де N - кількість "відмотаних" днів. <br />
+Наприклад, код нижче, "мотає" 0 днів назад (тобто, сьогодні).
+``` html
+  <span class="date-0"></span>
+```
