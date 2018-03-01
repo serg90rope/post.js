@@ -3,14 +3,12 @@ Here you find the separated post.js functions and might to find their html-code/
 
 
 
-<h3>postDate();</h3>
+<h3>postDate(dateFormat, language, abbreviated);</h3>
 
 <p>Приймає три аргументи:
-  <pre>
-    <code>
+  <pre><code>
       dateFormat (string), language (string), abbreviated (bool). 
       Default: 'dd.mm.yyyy', 'ru', false
-    </code>
-  </pre>
+    </code></pre>
 
 <code>Type:</code> Here is <code>Default:</code>
