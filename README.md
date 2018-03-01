@@ -3,4 +3,8 @@ Here you find the separated post.js functions and might to find their html-code/
 
 
 
-<h2>Privet</h2>
+<h2>postDate</h2>
+фцвфцвфцв
+фцвцфв
+
+<code>Type:</code> Here is <code>Default:</code>
