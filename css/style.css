@@ -1,0 +1,256 @@
+/* Pop-up Styles */
+
+.screenLock {
+    height: 9946px; 
+    position: fixed; 
+    z-index: 999999; 
+    top: 0px; 
+    left: 0px; 
+    width: 100%; 
+    background: 
+    rgba(0, 0, 0, 0.7); 
+    display: none;
+}
+
+.message {
+    position: absolute; 
+    width: 600px; 
+    height: 300px; 
+    background: 
+    rgb(113, 63, 233); 
+    top: 150px; 
+    left: 50%; 
+    margin-left: -300px; 
+    border-style: solid; 
+    border-color: 
+    rgb(255, 255, 255); 
+    border-width: 2px; 
+    border-radius: 7px; 
+    padding: 7px;
+}
+
+.screenLockClose {
+    text-align: right; 
+    cursor: pointer;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 28px;
+}
+
+.message-title {
+    font-size: 40px; 
+    font-family: Arial; 
+    text-align: center; 
+    color: rgb(255, 255, 255); 
+    font-weight: bold; 
+    margin-bottom: 30px; 
+    margin-top: 20px;
+}
+
+.submit-popup {
+    display: block;
+    margin: 30px auto 0;
+    text-transform: uppercase; 
+    font-size: 30px; 
+    font-family: Arial; 
+    font-weight: bold; 
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    width: 440px;
+    background: rgb(204, 0, 0); 
+    border-style: solid; 
+    border-color: rgb(255, 255, 255); 
+    border-width: 1px;
+}
+
+
+
+
+
+/* FixedSidebar Styles */
+
+.sticky-wrapper {
+    width: inherit;
+    left: auto;
+    right: auto;
+    transition: all 0.2s linear;
+}
+
+.sticky-wrapper.fixed {
+    position: fixed;
+    top: 0px;
+}
+
+
+
+
+
+/* Calendar styles */
+
+#calendar {
+    width: 300px;
+    font-family: Arial;
+    line-height: 18px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+#calendar thead tr:last-child {
+    font-size: small;
+    color: rgb(85, 85, 85);
+}
+
+#calendar thead tr:nth-child(1) td:nth-child(2) {
+    color: #fff;
+}
+
+#calendar thead tr:nth-child(1) td:nth-child(1):hover,
+#calendar thead tr:nth-child(1) td:nth-child(3):hover {
+    cursor: pointer;
+}
+
+#calendar tbody td {
+    color: #fff;
+}
+
+#calendar tbody td:nth-child(n+6),
+#calendar .holiday {
+    color: #fff;
+}
+
+#calendar tbody td.today {
+    background: #3683c7;
+    color: #fff;
+}
+
+tr.mounth {
+    background: #132442;
+    color: #fff!important;
+    border: none;
+}
+
+tr.days td {
+    background: #d7e0e9;
+    color: #132442;
+}
+
+tr td:nth-child(6) {
+    background: #b8d8ed;
+}
+
+tr td:nth-child(7) {
+    background: #b8d8ed;
+}
+
+tbody td {
+    background: #d7e0e9;
+}
+
+tbody td:nth-chlid(6) {
+    background: #b7d7ec!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* post.js styles (No need to copy) */
+
+.block-container {
+    background-color: #aaa;
+    margin: 20px auto;
+    width: 400px;
+    height: 2000px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.sticky {
+    border: 1px solid #333;
+    background-color: #fff;
+    width: 200px;
+    margin: 20px auto;
+    height: 200px;
+}
+
+.sa * { font-family: 'Nunito', sans-serif; }
+.sa {
+    border: 1px solid #ddd;
+    background-color: #eee;
+    padding: 40px 30px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 80px;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.description p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.code {
+    border: 1px solid #333;
+    background-color: #fff;
+    padding: 10px;
+    margin: -15px 10px 0;
+    font-size: 12px;
+}
+
+.post, a:visited {
+    transition: all 0.2s linear;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+
+.post:hover {
+    color: rgb(17, 170, 255);
+}
+
+.post::before {
+    content: '';
+    display: block;
+    position: absolute;
+    opacity: 1;
+    left: -23px;
+    top: 7px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.4;
+    background: transparent url(link.png) no-repeat center center;
+    background-size: 100%;
+    transition: all 0.2s linear;
+}
+
+.post:hover::before {
+    opacity: 1;
+}
+
+span.margin { margin-left: 40px; color: #aaa; font-size: 16px; }
+span.margin.br { display: block; margin-left: 0; }
+.tag, code { font-style: italic; font-weight: bold; }
+p.no { margin-top: -10px; }
+.sa-img { display: block; max-width: 280px; height: auto; margin: 10px auto; }
+.spoiler-text { cursor: pointer; font-size: 16px;  }
