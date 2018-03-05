@@ -5,6 +5,7 @@ Here you find the separated post.js functions and might to find their html-code/
 
 ### [postDate(dateFormat, language, abbreviated);](http://sa.post.js.rcktprft.ru#postDate)
 
+
 Arguments:
   ``` javascript
       dateFormat (string), language (string), abbreviated (bool)
@@ -86,7 +87,7 @@ dd/mm/yyyy
 dd-mm-yyyy 
 ```
 
-### postSeason('ua');
+### [postSeason('ua');](http://sa.post.js.rcktprft.ru#postSeason)
 
 Argument:
   ``` javascript
@@ -94,7 +95,7 @@ Argument:
       Default: 'ua'
   ```
   
-Додаємо класс `season` до будь-якого тегу. [Наприклад](http://sa.post.js.rcktprft.ru), `<span class="season"></span>`. Результат буде `літо`.
+Додаємо класс `season` до будь-якого тегу. [Наприклад](http://sa.post.js.rcktprft.ru#postSeason1), `<span class="season"></span>`. Результат буде `літо`.
 
 Доступні мови:
 
@@ -118,7 +119,7 @@ Argument:
 'ua': Ukraine 
 ```
 
-### postSpoiler('spoil', ['Показати фото', 'Сховати фото'], ['spoiler-text', 'spoiler-content']); 
+### postSpoiler('spoil', ['Показати фото', 'Сховати фото'], ['spoiler-text', 'spoiler-content']);
 
 Arguments:
 
@@ -128,7 +129,7 @@ Default: 'spoil', ['Показати фото', 'Сховати фото'], ['sp
 ```
 
 Блок з текстом - `spoil`. Всередині нього блок з текстом `spoiler-text` та наступний по DOM-дереву блок с прихованим контентом `spoiler-content`.
-[HTML-розмітка](http://sa.post.js.rcktprft.ru):
+HTML-розмітка:
 
 ``` html
   <div class="spoil">
@@ -139,12 +140,12 @@ Default: 'spoil', ['Показати фото', 'Сховати фото'], ['sp
   </div>
 ```
 
-Класи внутрішніх блоків та тексту можна змінювати передаючи аргументи при виклику функції. Наприклад, `["Show photo", "Hide photo"] - postSpoiler("", ['Show photo', 'Hide photo']);`
+Класи внутрішніх блоків та тексту можна змінювати передаючи аргументи при виклику функції. [Наприклад](http://sa.post.js.rcktprft.ru#postSpoiler1), `["Show photo", "Hide photo"] - postSpoiler("", ['Show photo', 'Hide photo']);`
 
-### Calendar
+### [Calendar](http://sa.post.js.rcktprft.ru#postCalendar)
 
 Календар задається у формі таблиці `id="calendar"` (можна змінити в разі необхідності).
-Копіюємо html-розмітку та стилі. [Результат](http://sa.post.js.rcktprft.ru).
+Копіюємо html-розмітку та стилі. [Результат](http://sa.post.js.rcktprft.ru#postCalendar1).
 
 ``` html
 <table id="calendar">
@@ -224,7 +225,7 @@ tbody td:nth-chlid(6) {
 
 ```
 
-### postFixedSidebar(className);
+### [postFixedSidebar(className);](http://sa.post.js.rcktprft.ru#postFixedSidebar)
 
 Argument:
 
@@ -249,11 +250,11 @@ Argument:
 }
 ```
 
-При потребі, клас можна задати свій. Тоді змінюємо css-стилі для свого класу `.className-wrapper` та `.className-wrapper.fixed`. Частину `wrapper` не потрібно видаляти. Вона автоматично додається для коректного відображення. [Результат](http://sa.post.js.rcktprft.ru).
+При потребі, клас можна задати свій. Тоді змінюємо css-стилі для свого класу `.className-wrapper` та `.className-wrapper.fixed`. Частину `wrapper` не потрібно видаляти. Вона автоматично додається для коректного відображення. [Результат](http://sa.post.js.rcktprft.ru#postFixedSidebar1).
 
-### postPopup();
+### [postPopup();](http://sa.post.js.rcktprft.ru#postPopup)
 
-Копіюємо html-розмітку в кінець сторінки та стилі (або підганяємо під дизайн сторінки самостійно). [Pop-up](http://sa.post.js.rcktprft.ru)
+Копіюємо html-розмітку в кінець сторінки та стилі (або підганяємо під дизайн сторінки самостійно). [Pop-up](http://sa.post.js.rcktprft.ru#postPopup1)
 
 ``` html
 <div class="screenLock">
