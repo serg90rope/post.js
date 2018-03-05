@@ -1,7 +1,7 @@
 # post.js
 Here you find the separated post.js functions and might to find their html-code/styles.
 
-Опис функцій та результати виконання можна знайти [тут](http://sa.post.js.rcktprft.ru).
+Опис функцій також та результати виконання можна знайти [тут](http://sa.post.js.rcktprft.ru).
 
 ``` javascript
   postDate(dateFormat, language, abbreviated);
