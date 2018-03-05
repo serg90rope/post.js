@@ -3,7 +3,7 @@ Here you find the separated post.js functions and might to find their html-code/
 
 Опис функцій та результати виконання можна знайти [тут](http://sa.post.js.rcktprft.ru).
 
-### postDate(dateFormat, language, abbreviated);
+### [postDate(dateFormat, language, abbreviated);](http://sa.post.js.rcktprft.ru#postDate)
 
 Arguments:
   ``` javascript
@@ -12,12 +12,12 @@ Arguments:
   ```
 
 Додаємо клас `date-N`, де N - кількість "відмотаних" днів. <br />
-[Наприклад](http://sa.post.js.rcktprft.ru), код нижче, "мотає" 0 днів назад (тобто, сьогодні).
+[Наприклад](http://sa.post.js.rcktprft.ru#postDate1), код нижче, "мотає" 0 днів назад (тобто, сьогодні).
 ``` html
   <span class="date-0"></span>
 ```
 
-Вивід дати (+ години + хвилини), додаємо клас `time`. [Наприклад](http://sa.post.js.rcktprft.ru), `<span class="date-1 time></span>`.
+Вивід дати (+ години + хвилини), додаємо клас `time`. [Наприклад](http://sa.post.js.rcktprft.ru#postDate2), `<span class="date-1 time></span>`.
 
 ``` html
     <span class="date-1 time"></span>
@@ -26,7 +26,7 @@ Arguments:
     <span class="date-1 time"></span>
 ```
 
-Працює як в порядку зростання, так і в порядку спадання. Шукаємо в коді рядок `timeArray = time(nodeList, true)` і передаємо другий аргумент `true`. [Отримаємо](http://sa.post.js.rcktprft.ru):
+Працює як в порядку зростання, так і в порядку спадання. Шукаємо в коді рядок `timeArray = time(nodeList, true)` і передаємо другий аргумент `true`. [Отримаємо](http://sa.post.js.rcktprft.ru#postDate3):
 
 ``` html
     <span class="date-2 time"></span>
@@ -37,7 +37,7 @@ Arguments:
 
 Можна задавати формат часу для окремих дат. Зазвичай, на початку пре-лендінг сторінки йде дата публікації статті, а внизу сторінки - коментарі з датою. Додаємо `data-format="format"` до тегу з класом `date`.
 
-[Наприклад](http://sa.post.js.rcktprft.ru): 
+[Наприклад](http://sa.post.js.rcktprft.ru#postDate4): 
 
 ``` html
 <span class="date-8"></span>
