@@ -87,7 +87,7 @@ dd/mm/yyyy
 dd-mm-yyyy 
 ```
 
-### [postSeason('ua');](http://sa.post.js.rcktprft.ru#postSeason)
+## [postSeason('ua');](http://sa.post.js.rcktprft.ru#postSeason)
 
 Argument:
   ``` javascript
@@ -119,7 +119,7 @@ Argument:
 'ua': Ukraine 
 ```
 
-### postSpoiler('spoil', ['Показати фото', 'Сховати фото'], ['spoiler-text', 'spoiler-content']);
+## postSpoiler('spoil', ['Показати фото', 'Сховати фото'], ['spoiler-text', 'spoiler-content']);
 
 Arguments:
 
@@ -142,7 +142,7 @@ HTML-розмітка:
 
 Класи внутрішніх блоків та тексту можна змінювати передаючи аргументи при виклику функції. [Наприклад](http://sa.post.js.rcktprft.ru#postSpoiler1), `["Show photo", "Hide photo"] - postSpoiler("", ['Show photo', 'Hide photo']);`
 
-### [Calendar](http://sa.post.js.rcktprft.ru#postCalendar)
+## [Calendar](http://sa.post.js.rcktprft.ru#postCalendar)
 
 Календар задається у формі таблиці `id="calendar"` (можна змінити в разі необхідності).
 Копіюємо html-розмітку та стилі. [Результат](http://sa.post.js.rcktprft.ru#postCalendar1).
@@ -225,7 +225,7 @@ tbody td:nth-chlid(6) {
 
 ```
 
-### [postFixedSidebar(className);](http://sa.post.js.rcktprft.ru#postFixedSidebar)
+## [postFixedSidebar(className);](http://sa.post.js.rcktprft.ru#postFixedSidebar)
 
 Argument:
 
@@ -252,7 +252,7 @@ Argument:
 
 При потребі, клас можна задати свій. Тоді змінюємо css-стилі для свого класу `.className-wrapper` та `.className-wrapper.fixed`. Частину `wrapper` не потрібно видаляти. Вона автоматично додається для коректного відображення. [Результат](http://sa.post.js.rcktprft.ru#postFixedSidebar1).
 
-### [postPopup();](http://sa.post.js.rcktprft.ru#postPopup)
+## [postPopup();](http://sa.post.js.rcktprft.ru#postPopup)
 
 Копіюємо html-розмітку в кінець сторінки та стилі (або підганяємо під дизайн сторінки самостійно). [Pop-up](http://sa.post.js.rcktprft.ru#postPopup1)
 
