@@ -1,3 +1,5 @@
+// Updated 29.03.2018: data-format for IE
+
 $(document).ready(function() {
 
 	// Вивід дати (+ час). Argument: Date_format (string). Default: 'dd.mm.yyyy'
@@ -74,7 +76,7 @@ function postDate(sa) {
         timeArray = timeFormat(timeArray);
 
         for(var i = 0; i < nodeList.length; i++) {
-            var data = nodeList[i].dataset;
+            var data = window.navigator.userAgent.indexOf("MSIE") > 0 ? { format: nodeList[i].getAttribute("data-format") } : nodeList[i].dataset;
 
             if (data.format) {
                 nodeList[i].innerHTML = format(date, data.format);
