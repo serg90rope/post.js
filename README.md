@@ -4,7 +4,7 @@ Here you find the separated post.js functions and might to find their html-code/
 Опис функцій також та результати виконання можна знайти [тут](http://sa.post.js.rcktprft.ru).
 
 ``` javascript
-  [postDate(dateFormat, language, abbreviated);]
+  postDate(dateFormat, language, abbreviated);
   postSeason(language);
   postSpoiler(spoilerName, textArray, classesArray);
   postCalendar();
