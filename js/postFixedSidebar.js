@@ -18,6 +18,7 @@ function postFixedSidebar(className) {
 
 		.sticky-wrapper.fixed {
 			position: fixed;
+			top: 0;
 		}
 	*/
 
